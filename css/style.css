@@ -64,11 +64,12 @@ img {
 }
 
 .showcase-top img {
-    width: 200px;
+    width: 50px;
     position: left;
+    margin-top: 2rem;
     top: 50%;
     left: 50%;
-    transform: translate(20%);
+    transform: translate(70%);
 }
 
 .showcase-top a {
@@ -346,7 +347,8 @@ img {
 
     .showcase-top img {
         top: 50%;
-        left: 5%;
+        left: 30%;
+        margin-left: 2rem;
         transform: translate(0);
     }
 
@@ -404,6 +406,10 @@ img {
         margin: auto;
         font-size: 1.2rem;
     }
+
+    .faq .container .tabs .tabs-inner .fa-times {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 700px) {
@@ -437,6 +443,7 @@ img {
         width: 100%;
         margin: auto;
         font-size: 1rem;
+        padding: auto;
     }
 
     .input-email {
@@ -444,5 +451,10 @@ img {
         padding: 1rem;
         width: 100%;
         margin-bottom: 1rem;
+    }
+
+    .container {
+        max-width: 80%;
+        padding: 0 2rem;
     }
 }
